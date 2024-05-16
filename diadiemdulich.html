@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dữ liệu về các địa điểm du lịch</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 7px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        .wrap-text {
+            word-wrap: break-word; /* hoặc word-break: break-all; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Dữ liệu về các địa điểm du lịch</h1>
+
+    <table>
+        <tr>
+            <th>Địa điểm</th>
+            <th>Mô tả</th>
+            <th>Đánh giá</th>
+        </tr>
+        <tr>
+            <td>Paris, Pháp</td>
+            <td><p>Thành phố ánh sáng, thủ đô của Pháp, nổi tiếng với tháp Eiffel và Khải Hoàn Môn.</p> <p style="break-inside: avoid;">Đây là một điểm đến phổ biến cho du khách trên khắp thế giới.</p></td>
+            <td>4.5/5</td>
+        </tr>
+        <tr>
+            <td>Tokyo, Nhật Bản</td>
+            <td>Thủ đô hiện đại, kết hợp giữa văn hóa truyền thống và công nghệ tiên tiến.</td>
+            <td>4.8/5</td>
+        </tr>
+        <tr>
+            <td>Rome, Italy</td>
+            <td>Thành phố cổ đại, nổi tiếng với di tích lịch sử như La Mã cổ đại và Colosseum.</td>
+            <td>4.5/5</td>
+        </tr>
+        <tr>
+            <td>Bắc Kinh, Trung Quốc</td>
+            <td rowspan="2" class="wrap-text">Thành phố nổi tiếng với các di tích lịch sử, văn hóa, kiến trúc lâu đời, đồ sộ như cung điện, chùa chiền, lăng mộ, thành trì, cùng với đó, các kho tàng nghệ thuật đa dạng, các trường đại học chất lượng cao góp phần đưa thành phố trở thành một trung tâm văn hóa và nghệ thuật tại Trung Quốc.</td>
+            <td>4.8/5</td>
+        </tr>
+        <tr>
+            <td>Nam Kinh, Trung Quốc</td>
+            <td></td> <!-- Thêm một ô trống cho cột "Đánh giá" -->
+            <td>4.0/5</td>
+        </tr>
+    </table>
+
+    <p>* Đánh giá được dựa trên đánh giá của du khách và các trang đánh giá du lịch trực tuyến.</p>
+</body>
+</html>
